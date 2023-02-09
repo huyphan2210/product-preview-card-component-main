@@ -4,6 +4,6 @@
 
 ## Welcome! 👋
 
-Hello! This is a challenge created by [Frontend Mentor](https://www.frontendmentor.io). You can see my result [here](https://huyphan2210.github.io/product-preview-card-component-main/)
+Hello! This is a challenge created by [Frontend Mentor](https://www.frontendmentor.io). You can see my result [here](https://huyphan2210.github.io/product-preview-card-component-main/).
 
  
