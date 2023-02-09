@@ -82,6 +82,7 @@ body {
          }
 
         .addBtn:hover {
+            background-color: hsl(212, 21%, 14%);
             cursor: pointer;
         }
 
