@@ -4,25 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Fraunces">
   <link rel="stylesheet" href="./style.css">
-  <title>Frontend Mentor | Product preview card component</title>
+  <title>Product preview card component</title>
 </head>
 <body>
   <div class="container">
     <div class="productImg"></div>
     <div class="productDescription">
-      <p>Perfume</p>
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-      <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+      <p id="productType">P E R F U M E</p>
+      <h1 id="productName">Gabrielle Essence Eau De Parfum</h1>
+      <p id="productBrief"> A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
      
-      <div class="price">
-        $149.99
-        $169.99
+      <div class="productPrice">
+        <h1 class="offerPrice">$149.99</h1>
+        <small class="originalPrice">$169.99</small>
       </div>
-      <button>Add to Cart</button>
-      
+      <button type="button" class="addBtn" onclick="addToCard()">
+        <img id="cartIcon" src="./images/icon-cart.svg">
+       <p>Add to Cart</p>
+      </button>
     </div>
   </div>
 
@@ -30,5 +30,10 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/huyphan2210" target="_blank">Huy Phan</a>.
   </div>
+  <script>
+    function addToCard() {
+      alert("You've added this item to cart.")
+    }
+  </script>
 </body>
 </html>
